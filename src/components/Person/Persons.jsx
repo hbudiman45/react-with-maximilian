@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import classes from "./../App.module.css";
+import classes from "../../containers/App.module.css";
 import Person from "./Person";
 
-class PersonList extends Component {
+class Persons extends Component {
   state = {
     persons: [
       { id: "asfa1", name: "Max", age: 28 },
@@ -113,4 +113,4 @@ class PersonList extends Component {
   }
 }
 
-export default PersonList;
+export default Persons;
